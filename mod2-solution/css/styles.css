@@ -24,12 +24,13 @@ h1{
 }
 .title{
     position: absolute;
+    top: 0px;
+    right: 0px;
     border: 1px solid black;
     border-top: 0;
     border-right: 0;
+    margin: 0;
     width: 40%;
-    top: 0px;
-    right: 0px;
     text-align: center;
     font-weight: bold;
     font-size: 125%;
