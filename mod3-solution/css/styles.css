@@ -1,0 +1,62 @@
+body{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#nav-header{
+    background-color: #a7a7a7;
+    border: 0;
+    border-radius: 0;
+}
+#nav-header a:hover{
+    text-decoration: none;
+}
+#nav-header h1{
+    color:#222c2c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;  
+}
+
+button.navbar-toggle {
+    margin-top: -30px;
+    border: 1px solid black !important;
+}
+.icon-bar{
+    background-color: black !important;
+}
+#nav-items{
+    margin-top: 47px;
+    background-color: white;
+    
+}
+#nav-list{
+    margin-top: 0px;
+    border: 0.5px solid #6e6d6d;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#nav-list li{
+    text-align: center;
+}
+#nav-list li:nth-child(1){
+    margin-top: 10px;
+}
+#nav-list hr{
+    border: 0.5px solid #6e6d6d;
+    border-radius: 4px;
+    width: 97%;
+}
+#main-content h1{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+}
+#chicken{
+    margin-top: 15px;
+    background-color: grey;
+    padding: 20px;
+}
+#chicken h2{
+    font-weight: 700;
+    margin-top: 0px;
+    text-align: center;
+}
