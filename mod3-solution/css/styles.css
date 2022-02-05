@@ -10,15 +10,19 @@ body{
 #nav-header a:hover{
     text-decoration: none;
 }
-#nav-header h1{
+.navbar-brand h1{
     color:#222c2c;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 5px;  
-    margin-bottom: 20px;
+    margin-top:0px;  
+    margin-bottom: 0px;
+    line-height: .75;
+}
+.navbar-brand{
+    padding: 0px;
+    padding-top: 10px;
 }
 
 button.navbar-toggle {
-    margin-top: -50px;
     border: 1px solid black !important;
 }
 .icon-bar{
@@ -26,18 +30,16 @@ button.navbar-toggle {
 }
 @media (max-width: 767px) {
     #nav-items{
-        margin-top: 47px;
         background-color: white;
+        width: 100%;
+        margin: auto;
+        border: 0.5px solid #6e6d6d;
     }
 }
 #nav-list{
     margin-top: 0px;
-    border: 0.5px solid #6e6d6d;
     padding-top: 10px;
-    padding-bottom: 20px;
-}
-#nav-list li{
-    text-align: center;
+    padding-bottom: 10px;
 }
 #nav-list li:nth-child(1){
     margin-top: 10px;
@@ -48,7 +50,6 @@ button.navbar-toggle {
     width: 97%;
 }
 #main-content h1{
-    text-align: center;
     margin-top: 0px;
     font-weight: bold;
 }
@@ -60,5 +61,4 @@ button.navbar-toggle {
 #chicken h2{
     font-weight: 700;
     margin-top: 0px;
-    text-align: center;
 }
